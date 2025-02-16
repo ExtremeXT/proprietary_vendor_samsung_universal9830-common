@@ -205,7 +205,6 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.radio_manifest_2_33.xml \
     vendor.samsung.hardware.sehradio_manifest_2_33.xml \
     cass \
-    cbd \
     android.hardware.drm@1.3-service.widevine \
     android.hardware.keymaster@4.0_strongbox-service \
     android.hardware.neuralnetworks@1.3-service.eden-drv \
