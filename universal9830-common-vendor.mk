@@ -211,7 +211,6 @@ PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3-service.eden-drv \
     android.hardware.secure_element@1.2-service \
     gps \
-    gpsd \
     lhd \
     rild \
     vendor.samsung.hardware.gnss@2.1-service \

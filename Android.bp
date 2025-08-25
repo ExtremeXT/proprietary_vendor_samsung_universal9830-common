@@ -3098,42 +3098,6 @@ sh_binary {
 }
 
 cc_prebuilt_binary {
-    name: "gpsd",
-    owner: "samsung",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/hw/gpsd",
-            ],
-            shared_libs: [
-                "android.frameworks.sensorservice@1.0",
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libhardware_legacy",
-                "libcutils",
-                "libssl",
-                "libcrypto",
-                "libwrappergps",
-                "libandroid_net",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    relative_install_path: "hw",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
     name: "lhd",
     owner: "samsung",
     target: {
